@@ -1,0 +1,236 @@
+{
+  "person_id": "self",
+  "owner_confirmed": false,
+  "record": {
+    "schema_version": "1.0.0",
+    "record_id": "synthetic-rich",
+    "mode": "demo",
+    "session_date": "2030-01-08",
+    "date_source": "user_confirmed",
+    "start_time": "2030-01-08T18:30:00+08:00",
+    "start_time_local": "2030-01-08T18:30:00",
+    "distance_m": 1500,
+    "durations": {
+      "active_s": 1890
+    },
+    "time_basis": "active",
+    "stroke": "freestyle",
+    "pool_length_m": 50,
+    "intent": "unspecified",
+    "discomfort": null,
+    "source": {
+      "app": "合成示例，不是真实健康数据",
+      "scope": "single_session",
+      "session_key": null,
+      "image_sha256": []
+    },
+    "uncertain_fields": [],
+    "segments": null,
+    "metrics": [
+      {
+        "id": "synthetic-distance-total",
+        "key": "distance",
+        "qualifier": "total",
+        "label": "距离",
+        "raw_value": "1,500",
+        "raw_unit": "米",
+        "value": 1500,
+        "unit": "m",
+        "time_basis": null,
+        "status": "confirmed",
+        "source": {
+          "image_id": "synthetic-not-a-real-screenshot",
+          "region": "合成泳训示例｜全程",
+          "image_sha256": null
+        }
+      },
+      {
+        "id": "synthetic-time-active",
+        "key": "time",
+        "qualifier": "active",
+        "label": "运动时间",
+        "raw_value": "00:31:30",
+        "raw_unit": "",
+        "value": 1890,
+        "unit": "s",
+        "time_basis": "active",
+        "status": "confirmed",
+        "source": {
+          "image_id": "synthetic-not-a-real-screenshot",
+          "region": "合成泳训示例｜全程",
+          "image_sha256": null
+        }
+      },
+      {
+        "id": "synthetic-pace-average",
+        "key": "pace",
+        "qualifier": "average",
+        "label": "平均配速",
+        "raw_value": "2′06″",
+        "raw_unit": "/100米",
+        "value": 126,
+        "unit": "s/100m",
+        "time_basis": "active",
+        "status": "confirmed",
+        "source": {
+          "image_id": "synthetic-not-a-real-screenshot",
+          "region": "合成泳训示例｜全程",
+          "image_sha256": null
+        }
+      },
+      {
+        "id": "synthetic-pool_length-unspecified",
+        "key": "pool_length",
+        "qualifier": "unspecified",
+        "label": "泳池长度",
+        "raw_value": "50",
+        "raw_unit": "米",
+        "value": 50,
+        "unit": "m",
+        "time_basis": null,
+        "status": "confirmed",
+        "source": {
+          "image_id": "synthetic-not-a-real-screenshot",
+          "region": "合成泳训示例｜全程",
+          "image_sha256": null
+        }
+      },
+      {
+        "id": "synthetic-lengths-total",
+        "key": "lengths",
+        "qualifier": "total",
+        "label": "趟数",
+        "raw_value": "30",
+        "raw_unit": "趟",
+        "value": 30,
+        "unit": "count",
+        "time_basis": null,
+        "status": "confirmed",
+        "source": {
+          "image_id": "synthetic-not-a-real-screenshot",
+          "region": "合成泳训示例｜全程",
+          "image_sha256": null
+        }
+      },
+      {
+        "id": "synthetic-stroke-unspecified",
+        "key": "stroke",
+        "qualifier": "unspecified",
+        "label": "主泳姿",
+        "raw_value": "自由泳",
+        "raw_unit": "",
+        "value": "freestyle",
+        "unit": "",
+        "time_basis": null,
+        "status": "confirmed",
+        "source": {
+          "image_id": "synthetic-not-a-real-screenshot",
+          "region": "合成泳训示例｜全程",
+          "image_sha256": null
+        }
+      },
+      {
+        "id": "synthetic-calories-total",
+        "key": "calories",
+        "qualifier": "total",
+        "label": "总消耗热量",
+        "raw_value": "310",
+        "raw_unit": "千卡",
+        "value": 310,
+        "unit": "kcal",
+        "time_basis": null,
+        "status": "confirmed",
+        "source": {
+          "image_id": "synthetic-not-a-real-screenshot",
+          "region": "合成泳训示例｜全程",
+          "image_sha256": null
+        }
+      },
+      {
+        "id": "synthetic-calories-active",
+        "key": "calories",
+        "qualifier": "active",
+        "label": "活动热量",
+        "raw_value": "260",
+        "raw_unit": "千卡",
+        "value": 260,
+        "unit": "kcal",
+        "time_basis": null,
+        "status": "confirmed",
+        "source": {
+          "image_id": "synthetic-not-a-real-screenshot",
+          "region": "合成泳训示例｜全程",
+          "image_sha256": null
+        }
+      },
+      {
+        "id": "synthetic-heart_rate-average",
+        "key": "heart_rate",
+        "qualifier": "average",
+        "label": "平均心率",
+        "raw_value": "135",
+        "raw_unit": "次/分钟",
+        "value": 135,
+        "unit": "bpm",
+        "time_basis": null,
+        "status": "confirmed",
+        "source": {
+          "image_id": "synthetic-not-a-real-screenshot",
+          "region": "合成泳训示例｜全程",
+          "image_sha256": null
+        }
+      },
+      {
+        "id": "synthetic-stroke_count-total",
+        "key": "stroke_count",
+        "qualifier": "total",
+        "label": "划水次数",
+        "raw_value": "620",
+        "raw_unit": "次",
+        "value": 620,
+        "unit": "count",
+        "time_basis": null,
+        "status": "confirmed",
+        "source": {
+          "image_id": "synthetic-not-a-real-screenshot",
+          "region": "合成泳训示例｜全程",
+          "image_sha256": null
+        }
+      },
+      {
+        "id": "synthetic-stroke_rate-average",
+        "key": "stroke_rate",
+        "qualifier": "average",
+        "label": "平均划水频率",
+        "raw_value": "20",
+        "raw_unit": "次/分钟",
+        "value": 20,
+        "unit": "spm",
+        "time_basis": null,
+        "status": "confirmed",
+        "source": {
+          "image_id": "synthetic-not-a-real-screenshot",
+          "region": "合成泳训示例｜全程",
+          "image_sha256": null
+        }
+      },
+      {
+        "id": "synthetic-swolf-average",
+        "key": "swolf",
+        "qualifier": "average",
+        "label": "平均SWOLF",
+        "raw_value": "84",
+        "raw_unit": "",
+        "value": 84,
+        "unit": "score",
+        "time_basis": null,
+        "status": "confirmed",
+        "source": {
+          "image_id": "synthetic-not-a-real-screenshot",
+          "region": "合成泳训示例｜全程",
+          "image_sha256": null
+        }
+      }
+    ]
+  }
+}

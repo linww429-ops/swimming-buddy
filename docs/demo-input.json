@@ -1,0 +1,497 @@
+{
+  "person_id": "first-use-demo-only",
+  "owner_confirmed": false,
+  "adult_group": "male",
+  "record": {
+    "schema_version": "1.0.0",
+    "record_id": "synthetic-first-use-20261108",
+    "mode": "demo",
+    "person_id": "first-use-demo-only",
+    "session_date": "2026-11-08",
+    "date_source": "user_confirmed",
+    "start_time": null,
+    "start_time_local": null,
+    "distance_m": 1000,
+    "durations": {
+      "active_s": 1300
+    },
+    "time_basis": "active",
+    "stroke": "freestyle",
+    "pool_length_m": 50,
+    "intent": "normal",
+    "discomfort": null,
+    "source": {
+      "app": "首次使用演示：全部数据虚构",
+      "scope": "single_session",
+      "session_key": null,
+      "image_sha256": []
+    },
+    "uncertain_fields": [],
+    "segments": [
+      {
+        "segment_index": 1,
+        "distance_m": 50,
+        "duration_s": 60,
+        "time_basis": "active",
+        "stroke": "freestyle",
+        "pool_length_m": 50,
+        "includes_rest": false,
+        "stroke_count": 22,
+        "stroke_count_basis": "arm_strokes"
+      },
+      {
+        "segment_index": 2,
+        "distance_m": 50,
+        "duration_s": 62,
+        "time_basis": "active",
+        "stroke": "freestyle",
+        "pool_length_m": 50,
+        "includes_rest": false,
+        "stroke_count": 22,
+        "stroke_count_basis": "arm_strokes"
+      },
+      {
+        "segment_index": 3,
+        "distance_m": 50,
+        "duration_s": 65,
+        "time_basis": "active",
+        "stroke": "freestyle",
+        "pool_length_m": 50,
+        "includes_rest": false,
+        "stroke_count": 22,
+        "stroke_count_basis": "arm_strokes"
+      },
+      {
+        "segment_index": 4,
+        "distance_m": 50,
+        "duration_s": 65,
+        "time_basis": "active",
+        "stroke": "freestyle",
+        "pool_length_m": 50,
+        "includes_rest": false,
+        "stroke_count": 22,
+        "stroke_count_basis": "arm_strokes"
+      },
+      {
+        "segment_index": 5,
+        "distance_m": 50,
+        "duration_s": 66,
+        "time_basis": "active",
+        "stroke": "freestyle",
+        "pool_length_m": 50,
+        "includes_rest": false,
+        "stroke_count": 22,
+        "stroke_count_basis": "arm_strokes"
+      },
+      {
+        "segment_index": 6,
+        "distance_m": 50,
+        "duration_s": 66,
+        "time_basis": "active",
+        "stroke": "freestyle",
+        "pool_length_m": 50,
+        "includes_rest": false,
+        "stroke_count": 22,
+        "stroke_count_basis": "arm_strokes"
+      },
+      {
+        "segment_index": 7,
+        "distance_m": 50,
+        "duration_s": 67,
+        "time_basis": "active",
+        "stroke": "freestyle",
+        "pool_length_m": 50,
+        "includes_rest": false,
+        "stroke_count": 22,
+        "stroke_count_basis": "arm_strokes"
+      },
+      {
+        "segment_index": 8,
+        "distance_m": 50,
+        "duration_s": 67,
+        "time_basis": "active",
+        "stroke": "freestyle",
+        "pool_length_m": 50,
+        "includes_rest": false,
+        "stroke_count": 22,
+        "stroke_count_basis": "arm_strokes"
+      },
+      {
+        "segment_index": 9,
+        "distance_m": 50,
+        "duration_s": 68,
+        "time_basis": "active",
+        "stroke": "freestyle",
+        "pool_length_m": 50,
+        "includes_rest": false,
+        "stroke_count": 22,
+        "stroke_count_basis": "arm_strokes"
+      },
+      {
+        "segment_index": 10,
+        "distance_m": 50,
+        "duration_s": 67,
+        "time_basis": "active",
+        "stroke": "freestyle",
+        "pool_length_m": 50,
+        "includes_rest": false,
+        "stroke_count": 22,
+        "stroke_count_basis": "arm_strokes"
+      },
+      {
+        "segment_index": 11,
+        "distance_m": 50,
+        "duration_s": 67,
+        "time_basis": "active",
+        "stroke": "freestyle",
+        "pool_length_m": 50,
+        "includes_rest": false,
+        "stroke_count": 22,
+        "stroke_count_basis": "arm_strokes"
+      },
+      {
+        "segment_index": 12,
+        "distance_m": 50,
+        "duration_s": 66,
+        "time_basis": "active",
+        "stroke": "freestyle",
+        "pool_length_m": 50,
+        "includes_rest": false,
+        "stroke_count": 22,
+        "stroke_count_basis": "arm_strokes"
+      },
+      {
+        "segment_index": 13,
+        "distance_m": 50,
+        "duration_s": 66,
+        "time_basis": "active",
+        "stroke": "freestyle",
+        "pool_length_m": 50,
+        "includes_rest": false,
+        "stroke_count": 22,
+        "stroke_count_basis": "arm_strokes"
+      },
+      {
+        "segment_index": 14,
+        "distance_m": 50,
+        "duration_s": 65,
+        "time_basis": "active",
+        "stroke": "freestyle",
+        "pool_length_m": 50,
+        "includes_rest": false,
+        "stroke_count": 22,
+        "stroke_count_basis": "arm_strokes"
+      },
+      {
+        "segment_index": 15,
+        "distance_m": 50,
+        "duration_s": 65,
+        "time_basis": "active",
+        "stroke": "freestyle",
+        "pool_length_m": 50,
+        "includes_rest": false,
+        "stroke_count": 22,
+        "stroke_count_basis": "arm_strokes"
+      },
+      {
+        "segment_index": 16,
+        "distance_m": 50,
+        "duration_s": 65,
+        "time_basis": "active",
+        "stroke": "freestyle",
+        "pool_length_m": 50,
+        "includes_rest": false,
+        "stroke_count": 22,
+        "stroke_count_basis": "arm_strokes"
+      },
+      {
+        "segment_index": 17,
+        "distance_m": 50,
+        "duration_s": 65,
+        "time_basis": "active",
+        "stroke": "freestyle",
+        "pool_length_m": 50,
+        "includes_rest": false,
+        "stroke_count": 22,
+        "stroke_count_basis": "arm_strokes"
+      },
+      {
+        "segment_index": 18,
+        "distance_m": 50,
+        "duration_s": 64,
+        "time_basis": "active",
+        "stroke": "freestyle",
+        "pool_length_m": 50,
+        "includes_rest": false,
+        "stroke_count": 22,
+        "stroke_count_basis": "arm_strokes"
+      },
+      {
+        "segment_index": 19,
+        "distance_m": 50,
+        "duration_s": 63,
+        "time_basis": "active",
+        "stroke": "freestyle",
+        "pool_length_m": 50,
+        "includes_rest": false,
+        "stroke_count": 22,
+        "stroke_count_basis": "arm_strokes"
+      },
+      {
+        "segment_index": 20,
+        "distance_m": 50,
+        "duration_s": 61,
+        "time_basis": "active",
+        "stroke": "freestyle",
+        "pool_length_m": 50,
+        "includes_rest": false,
+        "stroke_count": 22,
+        "stroke_count_basis": "arm_strokes"
+      }
+    ],
+    "metrics": [
+      {
+        "id": "demo-distance-total",
+        "key": "distance",
+        "qualifier": "total",
+        "label": "距离",
+        "raw_value": "1,000",
+        "raw_unit": "米",
+        "value": 1000,
+        "unit": "m",
+        "time_basis": null,
+        "status": "confirmed",
+        "scope": "session",
+        "source": {
+          "image_id": "synthetic-first-use-record-not-a-screenshot",
+          "region": "模拟全程数据；用户授权虚构，非真实测量",
+          "image_sha256": null
+        }
+      },
+      {
+        "id": "demo-time-active",
+        "key": "time",
+        "qualifier": "active",
+        "label": "运动时间",
+        "raw_value": "00:21:40",
+        "raw_unit": "",
+        "value": 1300,
+        "unit": "s",
+        "time_basis": "active",
+        "status": "confirmed",
+        "scope": "session",
+        "source": {
+          "image_id": "synthetic-first-use-record-not-a-screenshot",
+          "region": "模拟全程数据；用户授权虚构，非真实测量",
+          "image_sha256": null
+        }
+      },
+      {
+        "id": "demo-pace-average",
+        "key": "pace",
+        "qualifier": "average",
+        "label": "平均配速",
+        "raw_value": "2′10″",
+        "raw_unit": "/100米",
+        "value": 130,
+        "unit": "s/100m",
+        "time_basis": "active",
+        "status": "confirmed",
+        "scope": "session",
+        "source": {
+          "image_id": "synthetic-first-use-record-not-a-screenshot",
+          "region": "模拟全程数据；用户授权虚构，非真实测量",
+          "image_sha256": null
+        }
+      },
+      {
+        "id": "demo-pool_length-unspecified",
+        "key": "pool_length",
+        "qualifier": "unspecified",
+        "label": "泳池长度",
+        "raw_value": "50",
+        "raw_unit": "米",
+        "value": 50,
+        "unit": "m",
+        "time_basis": null,
+        "status": "confirmed",
+        "scope": "session",
+        "source": {
+          "image_id": "synthetic-first-use-record-not-a-screenshot",
+          "region": "模拟全程数据；用户授权虚构，非真实测量",
+          "image_sha256": null
+        }
+      },
+      {
+        "id": "demo-lengths-total",
+        "key": "lengths",
+        "qualifier": "total",
+        "label": "趟数",
+        "raw_value": "20",
+        "raw_unit": "趟",
+        "value": 20,
+        "unit": "count",
+        "time_basis": null,
+        "status": "confirmed",
+        "scope": "session",
+        "source": {
+          "image_id": "synthetic-first-use-record-not-a-screenshot",
+          "region": "模拟全程数据；用户授权虚构，非真实测量",
+          "image_sha256": null
+        }
+      },
+      {
+        "id": "demo-stroke-unspecified",
+        "key": "stroke",
+        "qualifier": "unspecified",
+        "label": "主泳姿",
+        "raw_value": "自由泳",
+        "raw_unit": "",
+        "value": "freestyle",
+        "unit": "",
+        "time_basis": null,
+        "status": "confirmed",
+        "scope": "session",
+        "source": {
+          "image_id": "synthetic-first-use-record-not-a-screenshot",
+          "region": "模拟全程数据；用户授权虚构，非真实测量",
+          "image_sha256": null
+        }
+      },
+      {
+        "id": "demo-calories-total",
+        "key": "calories",
+        "qualifier": "total",
+        "label": "总消耗热量",
+        "raw_value": "225",
+        "raw_unit": "千卡",
+        "value": 225,
+        "unit": "kcal",
+        "time_basis": null,
+        "status": "confirmed",
+        "scope": "session",
+        "source": {
+          "image_id": "synthetic-first-use-record-not-a-screenshot",
+          "region": "模拟全程数据；用户授权虚构，非真实测量",
+          "image_sha256": null
+        }
+      },
+      {
+        "id": "demo-calories-active",
+        "key": "calories",
+        "qualifier": "active",
+        "label": "活动热量",
+        "raw_value": "195",
+        "raw_unit": "千卡",
+        "value": 195,
+        "unit": "kcal",
+        "time_basis": null,
+        "status": "confirmed",
+        "scope": "session",
+        "source": {
+          "image_id": "synthetic-first-use-record-not-a-screenshot",
+          "region": "模拟全程数据；用户授权虚构，非真实测量",
+          "image_sha256": null
+        }
+      },
+      {
+        "id": "demo-heart_rate-average",
+        "key": "heart_rate",
+        "qualifier": "average",
+        "label": "平均心率",
+        "raw_value": "142",
+        "raw_unit": "次/分钟",
+        "value": 142,
+        "unit": "bpm",
+        "time_basis": null,
+        "status": "confirmed",
+        "scope": "session",
+        "source": {
+          "image_id": "synthetic-first-use-record-not-a-screenshot",
+          "region": "模拟全程数据；用户授权虚构，非真实测量",
+          "image_sha256": null
+        }
+      },
+      {
+        "id": "demo-stroke_count-total",
+        "key": "stroke_count",
+        "qualifier": "total",
+        "label": "划水次数",
+        "raw_value": "440",
+        "raw_unit": "次",
+        "value": 440,
+        "unit": "count",
+        "time_basis": null,
+        "status": "confirmed",
+        "scope": "session",
+        "source": {
+          "image_id": "synthetic-first-use-record-not-a-screenshot",
+          "region": "模拟全程数据；用户授权虚构，非真实测量",
+          "image_sha256": null
+        }
+      },
+      {
+        "id": "demo-stroke_rate-average",
+        "key": "stroke_rate",
+        "qualifier": "average",
+        "label": "平均划水频率",
+        "raw_value": "20.3",
+        "raw_unit": "次/分钟",
+        "value": 20.3,
+        "unit": "spm",
+        "time_basis": null,
+        "status": "confirmed",
+        "scope": "session",
+        "source": {
+          "image_id": "synthetic-first-use-record-not-a-screenshot",
+          "region": "模拟全程数据；用户授权虚构，非真实测量",
+          "image_sha256": null
+        }
+      },
+      {
+        "id": "demo-swolf-average",
+        "key": "swolf",
+        "qualifier": "average",
+        "label": "平均SWOLF",
+        "raw_value": "87",
+        "raw_unit": "",
+        "value": 87,
+        "unit": "score",
+        "time_basis": null,
+        "status": "confirmed",
+        "scope": "session",
+        "source": {
+          "image_id": "synthetic-first-use-record-not-a-screenshot",
+          "region": "模拟全程数据；用户授权虚构，非真实测量",
+          "image_sha256": null
+        }
+      },
+      {
+        "id": "demo-swolf_basis-unspecified",
+        "key": "swolf_basis",
+        "qualifier": "unspecified",
+        "label": "模拟计数口径",
+        "raw_value": "本演示定义为单臂划水计数，不代表任何真实设备定义",
+        "raw_unit": "",
+        "value": "arm_strokes",
+        "unit": "",
+        "time_basis": null,
+        "status": "confirmed",
+        "scope": "session",
+        "source": {
+          "image_id": "synthetic-first-use-record-not-a-screenshot",
+          "region": "模拟全程数据；用户授权虚构，非真实测量",
+          "image_sha256": null
+        }
+      }
+    ]
+  },
+  "feedback": {
+    "pre_session_intent": "原本想轻松游完1000米",
+    "post_session_feeling": "前300米挺轻松，600米后胳膊有点酸，没有不适。",
+    "post_session_final_phase_feeling": "最后50米想快点上岸，主动冲了一下",
+    "discomfort": false
+  },
+  "quip": "胳膊600米就想散会，你却让它在最后50米返场。",
+  "quip_tone": "playful"
+}

@@ -1,0 +1,13 @@
+{
+  "version": "1.2.15-rc.1+fresh-quips.20261108",
+  "package_status": "public_release_candidate_prepared_not_published",
+  "software_license": "MIT",
+  "software_copyright_holder": "linww429-ops",
+  "copy_distribution_license": "MIT",
+  "artwork_distribution_license": "MIT",
+  "authorization_basis": "Rights holder explicitly confirmed rights to publish and requested open source during release preparation.",
+  "font_license": "OFL-1.1; see assets/fonts/COPYRIGHT; not relicensed by the root MIT license",
+  "third_party_font_bundled": true,
+  "external_dependency": "Pillow==12.3.0; external runtime dependency, not bundled",
+  "public_upload_performed": false
+}

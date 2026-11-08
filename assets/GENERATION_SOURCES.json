@@ -1,0 +1,91 @@
+{
+  "status": "current_file_inventory_not_generation_reproduction",
+  "notice": "当前10张无泳镜动物文件以本清单、presentation-library.json和NO_GOGGLES_QA.json为准。源包的旧生成清单对应更早图像，不能作为当前文件哈希或精确复现依据。",
+  "origin_notice": "源包将装饰描述为AI生成的通用动物；当前最终图的完整生成日志未随包提供，不宣称旧提示词可复现当前图。",
+  "distribution_basis": "项目权利人于本次发布准备中确认有权公开并要求开源；项目原创内容按根目录MIT许可证提供。",
+  "current_assets": [
+    {
+      "id": "seal-relax",
+      "path": "animals/seal-relax.webp",
+      "sha256": "d9aa20904105419df88b9f6b664b232b9d59852de153c36299d46928aa9f07df",
+      "goggles": false,
+      "current_visual_record": "NO_GOGGLES_QA.json"
+    },
+    {
+      "id": "seal-pool-edge",
+      "path": "animals/seal-pool-edge.webp",
+      "sha256": "2b282087ebaba050a270b80ee352b850d74b89e65c9d56efe76cecf0ea00b886",
+      "goggles": false,
+      "current_visual_record": "NO_GOGGLES_QA.json"
+    },
+    {
+      "id": "frog-steady",
+      "path": "animals/frog-steady.webp",
+      "sha256": "4ec7406b3dba8e7e3ef7aaff7b33aa79edfb695df6433bf1c6fbbf67773d8fce",
+      "goggles": false,
+      "current_visual_record": "NO_GOGGLES_QA.json"
+    },
+    {
+      "id": "frog-rest",
+      "path": "animals/frog-rest.webp",
+      "sha256": "cf0b69fae64f60f462a426ac17fa4cb219f558ddfeef8768e3fe4820f6816e4f",
+      "goggles": false,
+      "current_visual_record": "NO_GOGGLES_QA.json"
+    },
+    {
+      "id": "penguin-cruise",
+      "path": "animals/penguin-cruise.webp",
+      "sha256": "14ed578ae0cd064861fac9a2470695721d424ed56fc38bdaadb9537869398608",
+      "goggles": false,
+      "current_visual_record": "NO_GOGGLES_QA.json"
+    },
+    {
+      "id": "penguin-float",
+      "path": "animals/penguin-float.webp",
+      "sha256": "62344a13f2f42cefae785c4f23ad5b2cab4a2d4b5bff929e678b408836a780dd",
+      "goggles": false,
+      "current_visual_record": "NO_GOGGLES_QA.json"
+    },
+    {
+      "id": "otter-work",
+      "path": "animals/otter-work.webp",
+      "sha256": "aac0c013ee6b2fbf6322b20d80f6260798e9aaeec38b36b6dca5ec71a3f01a0a",
+      "goggles": false,
+      "current_visual_record": "NO_GOGGLES_QA.json"
+    },
+    {
+      "id": "otter-final-push",
+      "path": "animals/otter-final-push.webp",
+      "sha256": "113515d7a9ae5b3b1c8a1d8155028ca92bbd8fd7013824d44199f1c9a8a7d98f",
+      "goggles": false,
+      "current_visual_record": "NO_GOGGLES_QA.json"
+    },
+    {
+      "id": "buffalo-charge",
+      "path": "animals/buffalo-charge.webp",
+      "sha256": "f4dc7f135ec51c31ec6f11ecd2f5f00b51e410f5872bc8366d99e7f861a1c3bb",
+      "goggles": false,
+      "current_visual_record": "NO_GOGGLES_QA.json"
+    },
+    {
+      "id": "buffalo-finish",
+      "path": "animals/buffalo-finish.webp",
+      "sha256": "23816b4bed6b96f5f6bb029189691824c2e4cc817181dca094abfc8c71ab84d0",
+      "goggles": false,
+      "current_visual_record": "NO_GOGGLES_QA.json"
+    }
+  ],
+  "historical_asset_hashes": {
+    "seal-relax": "474bc32e46183dfd8f15bee40da35d33e3aff133ed4cee62e1321661775e6a46",
+    "seal-pool-edge": "9218e31e6eb514ce1d7546907c485231e316f848d9aa32955f51e9ba372db3fc",
+    "frog-steady": "1db51e534498e688937f4b3eb79c6af050e3b1e1ef3ea142f42fe9965de55454",
+    "frog-rest": "702c293763a72ae5fb26325054cc74423421beb042764b310a7f0a012c9d38c9",
+    "penguin-cruise": "7f19413805c172ee84f0dd3b2a38167beaf2fa442af670ea340fe144fae1e08e",
+    "penguin-float": "272cdf873afdd20f1f292f816af6e5dfbdeb18261054e86217ecc7d625db6241",
+    "otter-work": "52b08661ce07bc31ebf74e58c0910018578e674e49dde47081195a7c67cc47fe",
+    "otter-final-push": "b8dd8977e6c68a0ea918ea2147cb9f58120b763b6aa97a39678288a29595082f",
+    "buffalo-charge": "79611bb2e978fe41219b8a09f4e7c15fab73b70bbffdf81ff7bc26e4906e4bce",
+    "buffalo-finish": "207b366c38d1a2fb16f5523850d8c8eea00bc5626dde9c14ee7e22dbd0a96be4"
+  },
+  "historical_hashes_are_current": false
+}

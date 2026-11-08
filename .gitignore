@@ -1,0 +1,17 @@
+# Local outputs and private data
+/private-ledger/
+/private-data/
+/demo-output/
+/outputs/
+**/.owner.json
+**/.profiles/
+**/.quip-profiles/
+**/.presentations/
+**/.write.lock
+**/__pycache__/
+*.py[cod]
+.DS_Store
+.env
+.env.*
+.venv/
+venv/

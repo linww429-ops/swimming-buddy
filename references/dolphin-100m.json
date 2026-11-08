@@ -1,0 +1,56 @@
+{
+  "version": "offline-reference-1",
+  "status": "成人百米值与机构公开通知交叉核对；非证书，非当前国标认证",
+  "sources": [
+    "https://www.sport.gov.cn/yyzx/n5257/c644106/content.html",
+    "https://gh.sjtu.edu.cn/Article/view/2517",
+    "https://www.dangxiao.ha.cn/2024/11-29/376910.html"
+  ],
+  "time_unit": "seconds_for_complete_100m",
+  "thresholds": {
+    "freestyle": {
+      "male": {
+        "金": 100,
+        "银": 118,
+        "粉": 140,
+        "绿": 170
+      },
+      "female": {
+        "金": 130,
+        "银": 145,
+        "粉": 175,
+        "绿": 200
+      }
+    },
+    "breaststroke": {
+      "male": {
+        "金": 110,
+        "银": 125,
+        "粉": 146,
+        "绿": 178
+      },
+      "female": {
+        "金": 150,
+        "银": 170,
+        "粉": 200,
+        "绿": 220
+      }
+    }
+  },
+  "colors": {
+    "金": "#C99537",
+    "银": "#9BA9B0",
+    "粉": "#D798A9",
+    "绿": "#70A693",
+    "蓝": "#6EA9BE",
+    "neutral": "#94AAA3"
+  },
+  "blue_rule": "distance-based; no 100m time threshold is assigned or inferred",
+  "disclaimer": "成绩参考，不是证书；个人非正式训练截图不能代替标准达标测试",
+  "mixed_policy": {
+    "reference_stroke": "freestyle",
+    "authorization": "Explicit per-session dolphin_mixed_reference=freestyle only; absent by default",
+    "purpose": "娱乐参考；非正式混合泳认证",
+    "unknown_policy": "保持未知，不套用自由泳阈值"
+  }
+}

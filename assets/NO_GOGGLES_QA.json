@@ -1,0 +1,85 @@
+{
+  "version": "1.2.14",
+  "date": "date-not-distributed",
+  "method": "manual visual review; metadata does not replace visual review",
+  "assets": [
+    {
+      "file": "buffalo-charge.webp",
+      "sha256": "f4dc7f135ec51c31ec6f11ecd2f5f00b51e410f5872bc8366d99e7f861a1c3bb",
+      "source_library": "generated-source-reference-redacted",
+      "goggles": false,
+      "manual_visual_qa": "passed at source and actual card size; phone/full synthetic rendering",
+      "repair_qa": "frog bottom arc/cutout removed; seal outline not hard-truncated"
+    },
+    {
+      "file": "buffalo-finish.webp",
+      "sha256": "23816b4bed6b96f5f6bb029189691824c2e4cc817181dca094abfc8c71ab84d0",
+      "source_library": "generated-source-reference-redacted",
+      "goggles": false,
+      "manual_visual_qa": "passed at source and actual card size; phone/full synthetic rendering",
+      "repair_qa": "frog bottom arc/cutout removed; seal outline not hard-truncated"
+    },
+    {
+      "file": "frog-rest.webp",
+      "sha256": "cf0b69fae64f60f462a426ac17fa4cb219f558ddfeef8768e3fe4820f6816e4f",
+      "source_library": "generated-source-reference-redacted",
+      "goggles": false,
+      "manual_visual_qa": "passed at source and actual card size; phone/full synthetic rendering",
+      "repair_qa": "frog bottom arc/cutout removed; seal outline not hard-truncated"
+    },
+    {
+      "file": "frog-steady.webp",
+      "sha256": "4ec7406b3dba8e7e3ef7aaff7b33aa79edfb695df6433bf1c6fbbf67773d8fce",
+      "source_library": "generated-source-reference-redacted",
+      "goggles": false,
+      "manual_visual_qa": "passed at source and actual card size; phone/full synthetic rendering",
+      "repair_qa": "frog bottom arc/cutout removed; seal outline not hard-truncated"
+    },
+    {
+      "file": "otter-final-push.webp",
+      "sha256": "113515d7a9ae5b3b1c8a1d8155028ca92bbd8fd7013824d44199f1c9a8a7d98f",
+      "source_library": "generated-source-reference-redacted",
+      "goggles": false,
+      "manual_visual_qa": "passed at source and actual card size; phone/full synthetic rendering",
+      "repair_qa": "frog bottom arc/cutout removed; seal outline not hard-truncated"
+    },
+    {
+      "file": "otter-work.webp",
+      "sha256": "aac0c013ee6b2fbf6322b20d80f6260798e9aaeec38b36b6dca5ec71a3f01a0a",
+      "source_library": "generated-source-reference-redacted",
+      "goggles": false,
+      "manual_visual_qa": "passed at source and actual card size; phone/full synthetic rendering",
+      "repair_qa": "frog bottom arc/cutout removed; seal outline not hard-truncated"
+    },
+    {
+      "file": "penguin-float.webp",
+      "sha256": "62344a13f2f42cefae785c4f23ad5b2cab4a2d4b5bff929e678b408836a780dd",
+      "source_library": "generated-source-reference-redacted",
+      "goggles": false,
+      "manual_visual_qa": "passed at source and actual card size; phone/full synthetic rendering",
+      "repair_qa": "frog bottom arc/cutout removed; seal outline not hard-truncated"
+    },
+    {
+      "file": "seal-pool-edge.webp",
+      "sha256": "2b282087ebaba050a270b80ee352b850d74b89e65c9d56efe76cecf0ea00b886",
+      "source_library": "generated-source-reference-redacted",
+      "goggles": false,
+      "manual_visual_qa": "passed at source and actual card size; phone/full synthetic rendering",
+      "repair_qa": "frog bottom arc/cutout removed; seal outline not hard-truncated"
+    },
+    {
+      "file": "seal-relax.webp",
+      "sha256": "d9aa20904105419df88b9f6b664b232b9d59852de153c36299d46928aa9f07df",
+      "source_library": "generated-source-reference-redacted",
+      "goggles": false,
+      "manual_visual_qa": "passed at source and actual card size; phone/full synthetic rendering",
+      "repair_qa": "frog bottom arc/cutout removed; seal outline not hard-truncated"
+    },
+    {
+      "file": "penguin-cruise.webp",
+      "sha256": "14ed578ae0cd064861fac9a2470695721d424ed56fc38bdaadb9537869398608",
+      "goggles": false,
+      "manual_visual_qa": "previously accepted in1.2.13, unchanged"
+    }
+  ]
+}

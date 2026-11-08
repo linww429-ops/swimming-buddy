@@ -1,0 +1,100 @@
+{
+  "person_id": "self",
+  "owner_confirmed": false,
+  "record": {
+    "schema_version": "1.0.0",
+    "record_id": "synthetic-sparse",
+    "mode": "demo",
+    "session_date": "2030-01-08",
+    "date_source": "user_confirmed",
+    "start_time": "2030-01-08T18:30:00+08:00",
+    "start_time_local": "2030-01-08T18:30:00",
+    "distance_m": 1500,
+    "durations": {
+      "active_s": 1890
+    },
+    "time_basis": "active",
+    "stroke": "freestyle",
+    "pool_length_m": 50,
+    "intent": "unspecified",
+    "discomfort": null,
+    "source": {
+      "app": "合成示例，不是真实健康数据",
+      "scope": "single_session",
+      "session_key": null,
+      "image_sha256": []
+    },
+    "uncertain_fields": [],
+    "segments": null,
+    "metrics": [
+      {
+        "id": "synthetic-distance-total",
+        "key": "distance",
+        "qualifier": "total",
+        "label": "距离",
+        "raw_value": "1,500",
+        "raw_unit": "米",
+        "value": 1500,
+        "unit": "m",
+        "time_basis": null,
+        "status": "confirmed",
+        "source": {
+          "image_id": "synthetic-not-a-real-screenshot",
+          "region": "合成泳训示例｜全程",
+          "image_sha256": null
+        }
+      },
+      {
+        "id": "synthetic-time-active",
+        "key": "time",
+        "qualifier": "active",
+        "label": "运动时间",
+        "raw_value": "00:31:30",
+        "raw_unit": "",
+        "value": 1890,
+        "unit": "s",
+        "time_basis": "active",
+        "status": "confirmed",
+        "source": {
+          "image_id": "synthetic-not-a-real-screenshot",
+          "region": "合成泳训示例｜全程",
+          "image_sha256": null
+        }
+      },
+      {
+        "id": "synthetic-calories-total",
+        "key": "calories",
+        "qualifier": "total",
+        "label": "总消耗热量",
+        "raw_value": "310",
+        "raw_unit": "千卡",
+        "value": 310,
+        "unit": "kcal",
+        "time_basis": null,
+        "status": "confirmed",
+        "source": {
+          "image_id": "synthetic-not-a-real-screenshot",
+          "region": "合成泳训示例｜全程",
+          "image_sha256": null
+        }
+      },
+      {
+        "id": "synthetic-calories-active",
+        "key": "calories",
+        "qualifier": "active",
+        "label": "活动热量",
+        "raw_value": "260",
+        "raw_unit": "千卡",
+        "value": 260,
+        "unit": "kcal",
+        "time_basis": null,
+        "status": "confirmed",
+        "source": {
+          "image_id": "synthetic-not-a-real-screenshot",
+          "region": "合成泳训示例｜全程",
+          "image_sha256": null
+        }
+      }
+    ]
+  }
+}

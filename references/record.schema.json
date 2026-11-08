@@ -1,0 +1,399 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "urn:swim-buddy:record:1.0.0",
+  "title": "Swim Buddy single session record 1.0.0",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schema_version",
+    "record_id",
+    "mode",
+    "session_date",
+    "date_source",
+    "distance_m",
+    "durations",
+    "time_basis",
+    "stroke",
+    "pool_length_m",
+    "intent",
+    "discomfort",
+    "source",
+    "uncertain_fields",
+    "segments"
+  ],
+  "properties": {
+    "schema_version": {
+      "const": "1.0.0"
+    },
+    "record_id": {
+      "type": "string",
+      "pattern": "^[A-Za-z0-9_-]{1,100}$"
+    },
+    "mode": {
+      "enum": [
+        "real",
+        "demo"
+      ]
+    },
+    "session_date": {
+      "type": "string",
+      "format": "date",
+      "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+    },
+    "date_source": {
+      "enum": [
+        "screenshot",
+        "user_confirmed"
+      ]
+    },
+    "start_time": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "format": "date-time"
+    },
+    "distance_m": {
+      "type": "number",
+      "minimum": 1,
+      "maximum": 100000
+    },
+    "durations": {
+      "type": "object",
+      "minProperties": 1,
+      "additionalProperties": false,
+      "properties": {
+        "active_s": {
+          "type": "number",
+          "minimum": 1,
+          "maximum": 86400
+        },
+        "elapsed_s": {
+          "type": "number",
+          "minimum": 1,
+          "maximum": 86400
+        }
+      }
+    },
+    "time_basis": {
+      "enum": [
+        "active",
+        "elapsed"
+      ]
+    },
+    "stroke": {
+      "enum": [
+        "freestyle",
+        "breaststroke",
+        "backstroke",
+        "butterfly",
+        "mixed",
+        "unknown"
+      ]
+    },
+    "pool_length_m": {
+      "type": [
+        "number",
+        "null"
+      ],
+      "minimum": 1,
+      "maximum": 500
+    },
+    "intent": {
+      "enum": [
+        "normal",
+        "hard",
+        "recovery",
+        "unspecified"
+      ]
+    },
+    "discomfort": {
+      "type": [
+        "boolean",
+        "null"
+      ]
+    },
+    "source": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "app",
+        "scope",
+        "session_key",
+        "image_sha256"
+      ],
+      "properties": {
+        "app": {
+          "type": "string",
+          "maxLength": 80
+        },
+        "scope": {
+          "enum": [
+            "single_session",
+            "daily_summary",
+            "unknown"
+          ]
+        },
+        "session_key": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "minLength": 1,
+          "maxLength": 100
+        },
+        "image_sha256": {
+          "type": "array",
+          "maxItems": 20,
+          "items": {
+            "type": "string",
+            "pattern": "^[a-f0-9]{64}$"
+          }
+        },
+        "library_file_ids": {
+          "type": "array",
+          "maxItems": 20,
+          "items": {
+            "type": "string",
+            "pattern": "^libfile_[A-Za-z0-9_-]+$"
+          }
+        }
+      }
+    },
+    "uncertain_fields": {
+      "type": "array",
+      "items": {
+        "anyOf": [
+          {
+            "enum": [
+              "session_date",
+              "distance_m",
+              "durations",
+              "durations.active_s",
+              "durations.elapsed_s",
+              "active_s",
+              "elapsed_s",
+              "time_basis",
+              "stroke",
+              "pool_length_m",
+              "start_time",
+              "source",
+              "source.app",
+              "source.scope",
+              "source.session_key",
+              "segments"
+            ]
+          },
+          {
+            "type": "string",
+            "pattern": "^metrics\\.[A-Za-z0-9_-]{1,100}$"
+          },
+          {
+            "const": "start_time_local"
+          }
+        ]
+      }
+    },
+    "segments": {
+      "type": [
+        "array",
+        "null"
+      ],
+      "maxItems": 2000,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "distance_m",
+          "duration_s",
+          "time_basis"
+        ],
+        "properties": {
+          "distance_m": {
+            "type": "number",
+            "minimum": 1,
+            "maximum": 100000
+          },
+          "duration_s": {
+            "type": "number",
+            "minimum": 1,
+            "maximum": 86400
+          },
+          "time_basis": {
+            "enum": [
+              "active",
+              "elapsed"
+            ]
+          },
+          "segment_index": {"type":"integer","minimum":1},
+          "stroke_count": {"type":"integer","minimum":0},
+          "stroke_count_basis": {"enum":["arm_strokes","cycles","unknown"]},
+          "stroke": {"enum":["freestyle","breaststroke","backstroke","butterfly","mixed","unknown"]},
+          "pool_length_m": {"type":"number","minimum":1,"maximum":500},
+          "includes_rest": {"type":"boolean"}
+        }
+      }
+    },
+    "start_time_local": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "description": "Local screenshot start time; timezone not supplied, never invented"
+    },
+    "metrics": {
+      "type": "array",
+      "maxItems": 200,
+      "description": "All screenshot swimming observations, including extension keys, retained with original labels, values, units and source.",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "id",
+          "key",
+          "qualifier",
+          "label",
+          "raw_value",
+          "raw_unit",
+          "value",
+          "unit",
+          "time_basis",
+          "status",
+          "source"
+        ],
+        "properties": {
+          "id": {
+            "type": "string",
+            "pattern": "^[A-Za-z0-9_-]{1,100}$"
+          },
+          "key": {
+            "type": "string",
+            "pattern": "^[a-z][a-z0-9_]{0,79}$"
+          },
+          "qualifier": {
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 80
+          },
+          "label": {
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 200
+          },
+          "raw_value": {
+            "type": "string",
+            "maxLength": 1500
+          },
+          "raw_unit": {
+            "type": "string",
+            "maxLength": 100
+          },
+          "value": {
+            "type": [
+              "number",
+              "string",
+              "null"
+            ]
+          },
+          "unit": {
+            "type": "string",
+            "maxLength": 100
+          },
+          "time_basis": {
+            "enum": [
+              null,
+              "active",
+              "elapsed",
+              "unspecified"
+            ]
+          },
+          "status": {
+            "enum": [
+              "confirmed",
+              "uncertain",
+              "missing"
+            ]
+          },
+          "source": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+              "image_id",
+              "region",
+              "image_sha256"
+            ],
+            "properties": {
+              "image_id": {
+                "type": "string",
+                "minLength": 1,
+                "maxLength": 200
+              },
+              "region": {
+                "type": "string",
+                "minLength": 1,
+                "maxLength": 200
+              },
+              "image_sha256": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "pattern": "^[a-f0-9]{64}$"
+              }
+            }
+          },
+          "scope": {
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 100,
+            "description": "原图指标范围；如session、segment:2、每趟。可缺省兼容旧记录，不按品牌猜。"
+          }
+        }
+      }
+    },
+    "person_id": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 100
+    }
+  },
+  "allOf": [
+    {
+      "if": {
+        "properties": {
+          "time_basis": {
+            "const": "active"
+          }
+        }
+      },
+      "then": {
+        "properties": {
+          "durations": {
+            "required": [
+              "active_s"
+            ]
+          }
+        }
+      }
+    },
+    {
+      "if": {
+        "properties": {
+          "time_basis": {
+            "const": "elapsed"
+          }
+        }
+      },
+      "then": {
+        "properties": {
+          "durations": {
+            "required": [
+              "elapsed_s"
+            ]
+          }
+        }
+      }
+    }
+  ],
+  "$comment": "Runtime validate normalizes active_s/elapsed_s uncertainty aliases to durations.active_s/durations.elapsed_s, rejects unknown uncertainty keys, blocks uncertain critical values, and marks uncertain stroke/pool length unknown. Checks apply to the current record and history. Summary/unknown scope cannot be committed."
+}

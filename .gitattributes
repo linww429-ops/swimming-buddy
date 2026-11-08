@@ -1,0 +1,2 @@
+# Preserve exact bytes recorded by PACKAGE_MANIFEST.json.
+* -text

@@ -1,0 +1,222 @@
+{
+  "buffalo-charge.webp": {
+    "original_size": [
+      502,
+      335
+    ],
+    "original_sha256": "f4dc7f135ec51c31ec6f11ecd2f5f00b51e410f5872bc8366d99e7f861a1c3bb",
+    "display_sizes": {
+      "1": [
+        502,
+        335
+      ],
+      "2": [
+        1005,
+        670
+      ]
+    },
+    "sha256": "f4dc7f135ec51c31ec6f11ecd2f5f00b51e410f5872bc8366d99e7f861a1c3bb",
+    "size": [
+      502,
+      335
+    ]
+  },
+  "buffalo-finish.webp": {
+    "original_size": [
+      502,
+      335
+    ],
+    "original_sha256": "23816b4bed6b96f5f6bb029189691824c2e4cc817181dca094abfc8c71ab84d0",
+    "display_sizes": {
+      "1": [
+        502,
+        335
+      ],
+      "2": [
+        1005,
+        670
+      ]
+    },
+    "sha256": "23816b4bed6b96f5f6bb029189691824c2e4cc817181dca094abfc8c71ab84d0",
+    "size": [
+      502,
+      335
+    ]
+  },
+  "frog-rest.webp": {
+    "original_size": [
+      502,
+      335
+    ],
+    "original_sha256": "cf0b69fae64f60f462a426ac17fa4cb219f558ddfeef8768e3fe4820f6816e4f",
+    "display_sizes": {
+      "1": [
+        502,
+        335
+      ],
+      "2": [
+        1005,
+        670
+      ]
+    },
+    "sha256": "cf0b69fae64f60f462a426ac17fa4cb219f558ddfeef8768e3fe4820f6816e4f",
+    "size": [
+      502,
+      335
+    ]
+  },
+  "frog-steady.webp": {
+    "original_size": [
+      502,
+      335
+    ],
+    "original_sha256": "4ec7406b3dba8e7e3ef7aaff7b33aa79edfb695df6433bf1c6fbbf67773d8fce",
+    "display_sizes": {
+      "1": [
+        502,
+        335
+      ],
+      "2": [
+        1005,
+        670
+      ]
+    },
+    "sha256": "4ec7406b3dba8e7e3ef7aaff7b33aa79edfb695df6433bf1c6fbbf67773d8fce",
+    "size": [
+      502,
+      335
+    ]
+  },
+  "otter-final-push.webp": {
+    "original_size": [
+      502,
+      335
+    ],
+    "original_sha256": "113515d7a9ae5b3b1c8a1d8155028ca92bbd8fd7013824d44199f1c9a8a7d98f",
+    "display_sizes": {
+      "1": [
+        502,
+        335
+      ],
+      "2": [
+        1005,
+        670
+      ]
+    },
+    "sha256": "113515d7a9ae5b3b1c8a1d8155028ca92bbd8fd7013824d44199f1c9a8a7d98f",
+    "size": [
+      502,
+      335
+    ]
+  },
+  "otter-work.webp": {
+    "original_size": [
+      502,
+      335
+    ],
+    "original_sha256": "aac0c013ee6b2fbf6322b20d80f6260798e9aaeec38b36b6dca5ec71a3f01a0a",
+    "display_sizes": {
+      "1": [
+        502,
+        335
+      ],
+      "2": [
+        1005,
+        670
+      ]
+    },
+    "sha256": "aac0c013ee6b2fbf6322b20d80f6260798e9aaeec38b36b6dca5ec71a3f01a0a",
+    "size": [
+      502,
+      335
+    ]
+  },
+  "penguin-cruise.webp": {
+    "original_size": [
+      1535,
+      1025
+    ],
+    "original_sha256": "6a5fb780d3306ff420557eb0429ecbf860f21d9e099ac0b695cd2ab24b40753c",
+    "display_sizes": {
+      "1": [
+        502,
+        335
+      ],
+      "2": [
+        1005,
+        670
+      ]
+    },
+    "sha256": "14ed578ae0cd064861fac9a2470695721d424ed56fc38bdaadb9537869398608",
+    "size": [
+      502,
+      335
+    ]
+  },
+  "penguin-float.webp": {
+    "original_size": [
+      502,
+      335
+    ],
+    "original_sha256": "62344a13f2f42cefae785c4f23ad5b2cab4a2d4b5bff929e678b408836a780dd",
+    "display_sizes": {
+      "1": [
+        502,
+        335
+      ],
+      "2": [
+        1005,
+        670
+      ]
+    },
+    "sha256": "62344a13f2f42cefae785c4f23ad5b2cab4a2d4b5bff929e678b408836a780dd",
+    "size": [
+      502,
+      335
+    ]
+  },
+  "seal-pool-edge.webp": {
+    "original_size": [
+      502,
+      335
+    ],
+    "original_sha256": "2b282087ebaba050a270b80ee352b850d74b89e65c9d56efe76cecf0ea00b886",
+    "display_sizes": {
+      "1": [
+        502,
+        335
+      ],
+      "2": [
+        1005,
+        670
+      ]
+    },
+    "sha256": "2b282087ebaba050a270b80ee352b850d74b89e65c9d56efe76cecf0ea00b886",
+    "size": [
+      502,
+      335
+    ]
+  },
+  "seal-relax.webp": {
+    "original_size": [
+      335,
+      335
+    ],
+    "original_sha256": "d9aa20904105419df88b9f6b664b232b9d59852de153c36299d46928aa9f07df",
+    "display_sizes": {
+      "1": [
+        335,
+        335
+      ],
+      "2": [
+        670,
+        670
+      ]
+    },
+    "sha256": "d9aa20904105419df88b9f6b664b232b9d59852de153c36299d46928aa9f07df",
+    "size": [
+      335,
+      335
+    ]
+  }
+}

@@ -1,0 +1,802 @@
+{
+  "version": "1.1.0",
+  "levels": {
+    "1": {
+      "animal": "海豹",
+      "label": "泡澡"
+    },
+    "2": {
+      "animal": "青蛙",
+      "label": "老年蛙"
+    },
+    "3": {
+      "animal": "企鹅",
+      "label": "养生游"
+    },
+    "4": {
+      "animal": "水獭",
+      "label": "认真做牛马"
+    },
+    "5": {
+      "animal": "水牛",
+      "label": "拉爆"
+    }
+  },
+  "poses": [
+    {
+      "id": "seal-relax",
+      "level": 1,
+      "path": "animals/seal-relax.webp",
+      "tags": [
+        "normal",
+        "easy",
+        "rest",
+        "discomfort"
+      ],
+      "qa_approved": true,
+      "source": "Imagegen goggles-removal edit; generated-source-reference-redacted",
+      "license_status": "MIT; see root LICENSE and LICENSING.md",
+      "sha256": "d9aa20904105419df88b9f6b664b232b9d59852de153c36299d46928aa9f07df",
+      "size": [
+        335,
+        335
+      ],
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "original_sha256": "a91a2d47fd1717d79233f9c43b11d85d00bd9c11703a04259fdecd9f229f609d",
+      "original_size": [
+        1254,
+        1254
+      ],
+      "engineering_transform": "Lanczos to phone display size, lossless WebP; no redraw",
+      "goggles": false
+    },
+    {
+      "id": "seal-pool-edge",
+      "level": 1,
+      "path": "animals/seal-pool-edge.webp",
+      "tags": [
+        "normal",
+        "easy",
+        "rest",
+        "fatigued"
+      ],
+      "qa_approved": true,
+      "source": "Imagegen goggles-removal edit; generated-source-reference-redacted",
+      "license_status": "MIT; see root LICENSE and LICENSING.md",
+      "sha256": "2b282087ebaba050a270b80ee352b850d74b89e65c9d56efe76cecf0ea00b886",
+      "size": [
+        502,
+        335
+      ],
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "original_sha256": "141a67cc2af18f13318e2eddf9b33fdb2ab0d89416d3b384199f12ba52c99b27",
+      "original_size": [
+        1536,
+        1024
+      ],
+      "engineering_transform": "Lanczos to phone display size, lossless WebP; no redraw",
+      "goggles": false
+    },
+    {
+      "id": "frog-steady",
+      "level": 2,
+      "path": "animals/frog-steady.webp",
+      "tags": [
+        "normal",
+        "easy",
+        "steady",
+        "final_sprint"
+      ],
+      "qa_approved": true,
+      "source": "Imagegen goggles-removal edit; generated-source-reference-redacted",
+      "license_status": "MIT; see root LICENSE and LICENSING.md",
+      "sha256": "4ec7406b3dba8e7e3ef7aaff7b33aa79edfb695df6433bf1c6fbbf67773d8fce",
+      "size": [
+        502,
+        335
+      ],
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "original_sha256": "faf361b20f5c49cdc6f364809df325de7e80a36aecf5d8055512111a3580d34a",
+      "original_size": [
+        1536,
+        1024
+      ],
+      "engineering_transform": "Lanczos to phone display size, lossless WebP; no redraw",
+      "goggles": false
+    },
+    {
+      "id": "frog-rest",
+      "level": 2,
+      "path": "animals/frog-rest.webp",
+      "tags": [
+        "normal",
+        "easy",
+        "rest",
+        "fatigued",
+        "discomfort"
+      ],
+      "qa_approved": true,
+      "source": "Imagegen goggles-removal edit; generated-source-reference-redacted",
+      "license_status": "MIT; see root LICENSE and LICENSING.md",
+      "sha256": "cf0b69fae64f60f462a426ac17fa4cb219f558ddfeef8768e3fe4820f6816e4f",
+      "size": [
+        502,
+        335
+      ],
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "original_sha256": "d1e57836e842600ad9cf44aadec1a97804606e70f7c753ea708bb27a5573091f",
+      "original_size": [
+        1536,
+        1024
+      ],
+      "engineering_transform": "Lanczos to phone display size, lossless WebP; no redraw",
+      "goggles": false
+    },
+    {
+      "id": "penguin-cruise",
+      "level": 3,
+      "path": "animals/penguin-cruise.webp",
+      "tags": [
+        "normal",
+        "steady",
+        "final_sprint"
+      ],
+      "qa_approved": true,
+      "source": "Imagegen edit of penguin-cruise, goggles removed; Library generated-source-reference-redacted; distribution rights pending",
+      "license_status": "MIT; see root LICENSE and LICENSING.md",
+      "sha256": "14ed578ae0cd064861fac9a2470695721d424ed56fc38bdaadb9537869398608",
+      "size": [
+        502,
+        335
+      ],
+      "alpha_extrema": [
+        0,
+        253
+      ],
+      "original_sha256": "2684095adb19442264cc73c0d5a3b2a6053c7aa08f0f43211c939430afda0dec",
+      "original_size": [
+        1536,
+        1024
+      ],
+      "engineering_transform": "Lanczos to phone display size, lossless WebP; no redraw",
+      "goggles": false
+    },
+    {
+      "id": "penguin-float",
+      "level": 3,
+      "path": "animals/penguin-float.webp",
+      "tags": [
+        "normal",
+        "easy",
+        "rest",
+        "fatigued",
+        "discomfort"
+      ],
+      "qa_approved": true,
+      "source": "Imagegen goggles-removal edit; generated-source-reference-redacted",
+      "license_status": "MIT; see root LICENSE and LICENSING.md",
+      "sha256": "62344a13f2f42cefae785c4f23ad5b2cab4a2d4b5bff929e678b408836a780dd",
+      "size": [
+        502,
+        335
+      ],
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "original_sha256": "d6f28325c684ee7b12744a39af792b0c22ab661ce4b4a49c9d9931ec05845906",
+      "original_size": [
+        1536,
+        1024
+      ],
+      "engineering_transform": "Lanczos to phone display size, lossless WebP; no redraw",
+      "goggles": false
+    },
+    {
+      "id": "otter-work",
+      "level": 4,
+      "path": "animals/otter-work.webp",
+      "tags": [
+        "normal",
+        "hard",
+        "steady",
+        "final_sprint"
+      ],
+      "qa_approved": true,
+      "source": "Imagegen goggles-removal edit; generated-source-reference-redacted",
+      "license_status": "MIT; see root LICENSE and LICENSING.md",
+      "sha256": "aac0c013ee6b2fbf6322b20d80f6260798e9aaeec38b36b6dca5ec71a3f01a0a",
+      "size": [
+        502,
+        335
+      ],
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "original_sha256": "0583ce89c69c00c9d3eab3751b75078c67063bc2af3764f3e1b9c23c4bcb570e",
+      "original_size": [
+        1536,
+        1024
+      ],
+      "engineering_transform": "Lanczos to phone display size, lossless WebP; no redraw",
+      "goggles": false
+    },
+    {
+      "id": "otter-final-push",
+      "level": 4,
+      "path": "animals/otter-final-push.webp",
+      "tags": [
+        "normal",
+        "hard",
+        "final_sprint"
+      ],
+      "qa_approved": true,
+      "source": "Imagegen goggles-removal edit; generated-source-reference-redacted",
+      "license_status": "MIT; see root LICENSE and LICENSING.md",
+      "sha256": "113515d7a9ae5b3b1c8a1d8155028ca92bbd8fd7013824d44199f1c9a8a7d98f",
+      "size": [
+        502,
+        335
+      ],
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "original_sha256": "6958492f149c3ea3d8b0bcd612a0f3265a7f61dbbec6b4e8c69f2a957bfb37fc",
+      "original_size": [
+        1536,
+        1024
+      ],
+      "engineering_transform": "Lanczos to phone display size, lossless WebP; no redraw",
+      "goggles": false
+    },
+    {
+      "id": "buffalo-charge",
+      "level": 5,
+      "path": "animals/buffalo-charge.webp",
+      "tags": [
+        "normal",
+        "hard",
+        "final_sprint"
+      ],
+      "qa_approved": true,
+      "source": "Imagegen goggles-removal edit; generated-source-reference-redacted",
+      "license_status": "MIT; see root LICENSE and LICENSING.md",
+      "sha256": "f4dc7f135ec51c31ec6f11ecd2f5f00b51e410f5872bc8366d99e7f861a1c3bb",
+      "size": [
+        502,
+        335
+      ],
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "original_sha256": "32453a19613596da4e9fff3634a916c10de38b2581d2b31eb0fafc9d9baf5b3a",
+      "original_size": [
+        1536,
+        1024
+      ],
+      "engineering_transform": "Lanczos to phone display size, lossless WebP; no redraw",
+      "goggles": false
+    },
+    {
+      "id": "buffalo-finish",
+      "level": 5,
+      "path": "animals/buffalo-finish.webp",
+      "tags": [
+        "normal",
+        "hard",
+        "rest",
+        "fatigued"
+      ],
+      "qa_approved": true,
+      "source": "Imagegen goggles-removal edit; generated-source-reference-redacted",
+      "license_status": "MIT; see root LICENSE and LICENSING.md",
+      "sha256": "23816b4bed6b96f5f6bb029189691824c2e4cc817181dca094abfc8c71ab84d0",
+      "size": [
+        502,
+        335
+      ],
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "original_sha256": "94fd80ae5fc1779d7b6a0d01d7c38914aadee081794865a9114dbd5cb1cfbeb6",
+      "original_size": [
+        1536,
+        1024
+      ],
+      "engineering_transform": "Lanczos to phone display size, lossless WebP; no redraw",
+      "goggles": false
+    }
+  ],
+  "quips": [
+    {
+      "id": "quip-1-normal-0",
+      "level": 1,
+      "tags": [
+        "normal"
+      ],
+      "text": "今天不是赶工，是把自己泡进了下班。",
+      "license_status": "MIT; see root LICENSE and LICENSING.md"
+    },
+    {
+      "id": "quip-1-normal-1",
+      "level": 1,
+      "tags": [
+        "normal"
+      ],
+      "text": "水里待得很认真，赶路这事另说。",
+      "license_status": "MIT; see root LICENSE and LICENSING.md"
+    },
+    {
+      "id": "quip-1-normal-2",
+      "level": 1,
+      "tags": [
+        "normal"
+      ],
+      "text": "这趟主打水的参与感，我负责在场。",
+      "license_status": "MIT; see root LICENSE and LICENSING.md"
+    },
+    {
+      "id": "quip-1-easy-0",
+      "level": 1,
+      "tags": [
+        "easy"
+      ],
+      "text": "泳池收了门票，我收了这份清闲。",
+      "license_status": "MIT; see root LICENSE and LICENSING.md"
+    },
+    {
+      "id": "quip-1-easy-1",
+      "level": 1,
+      "tags": [
+        "easy"
+      ],
+      "text": "今天给胳膊放假，出勤交给水花。",
+      "license_status": "MIT; see root LICENSE and LICENSING.md"
+    },
+    {
+      "id": "quip-1-fatigued-0",
+      "level": 1,
+      "tags": [
+        "fatigued"
+      ],
+      "text": "累了就泡会儿，水里也允许请假。",
+      "license_status": "MIT; see root LICENSE and LICENSING.md"
+    },
+    {
+      "id": "quip-1-fatigued-1",
+      "level": 1,
+      "tags": [
+        "fatigued"
+      ],
+      "text": "这一班轻轻收工，谁也别催。",
+      "license_status": "MIT; see root LICENSE and LICENSING.md"
+    },
+    {
+      "id": "quip-1-final_sprint-0",
+      "level": 1,
+      "tags": [
+        "final_sprint"
+      ],
+      "text": "前面像泡澡，最后倒记起了打卡。",
+      "license_status": "MIT; see root LICENSE and LICENSING.md"
+    },
+    {
+      "id": "quip-1-final_sprint-1",
+      "level": 1,
+      "tags": [
+        "final_sprint"
+      ],
+      "text": "最后忙了一下，澡堂差点变赛场。",
+      "license_status": "MIT; see root LICENSE and LICENSING.md"
+    },
+    {
+      "id": "quip-1-hard-0",
+      "level": 1,
+      "tags": [
+        "hard"
+      ],
+      "text": "动作不多，认真泡完也算履约。",
+      "license_status": "MIT; see root LICENSE and LICENSING.md"
+    },
+    {
+      "id": "quip-2-normal-0",
+      "level": 2,
+      "tags": [
+        "normal"
+      ],
+      "text": "不抢泳道，今天走个稳妥流程。",
+      "license_status": "MIT; see root LICENSE and LICENSING.md"
+    },
+    {
+      "id": "quip-2-normal-1",
+      "level": 2,
+      "tags": [
+        "normal"
+      ],
+      "text": "蛙得不着急，水花也懂礼貌。",
+      "license_status": "MIT; see root LICENSE and LICENSING.md"
+    },
+    {
+      "id": "quip-2-normal-2",
+      "level": 2,
+      "tags": [
+        "normal"
+      ],
+      "text": "这班按部就班，泳池没催交件。",
+      "license_status": "MIT; see root LICENSE and LICENSING.md"
+    },
+    {
+      "id": "quip-2-easy-0",
+      "level": 2,
+      "tags": [
+        "easy"
+      ],
+      "text": "慢慢划，今天不是抢末班车。",
+      "license_status": "MIT; see root LICENSE and LICENSING.md"
+    },
+    {
+      "id": "quip-2-easy-1",
+      "level": 2,
+      "tags": [
+        "easy"
+      ],
+      "text": "水里不赶工，今天只交个泳道房租。",
+      "license_status": "MIT; see root LICENSE and LICENSING.md"
+    },
+    {
+      "id": "quip-2-fatigued-0",
+      "level": 2,
+      "tags": [
+        "fatigued"
+      ],
+      "text": "累了就少赶路，收工也讲个体面。",
+      "license_status": "MIT; see root LICENSE and LICENSING.md"
+    },
+    {
+      "id": "quip-2-fatigued-1",
+      "level": 2,
+      "tags": [
+        "fatigued"
+      ],
+      "text": "泳池不催加班，今天稳稳靠岸。",
+      "license_status": "MIT; see root LICENSE and LICENSING.md"
+    },
+    {
+      "id": "quip-2-final_sprint-0",
+      "level": 2,
+      "tags": [
+        "final_sprint"
+      ],
+      "text": "前面慢条斯理，最后还想插个队。",
+      "license_status": "MIT; see root LICENSE and LICENSING.md"
+    },
+    {
+      "id": "quip-2-final_sprint-1",
+      "level": 2,
+      "tags": [
+        "final_sprint"
+      ],
+      "text": "说好慢慢游，收尾倒忙上了。",
+      "license_status": "MIT; see root LICENSE and LICENSING.md"
+    },
+    {
+      "id": "quip-2-hard-0",
+      "level": 2,
+      "tags": [
+        "hard"
+      ],
+      "text": "动作稳得很，认真这事藏不住。",
+      "license_status": "MIT; see root LICENSE and LICENSING.md"
+    },
+    {
+      "id": "quip-3-normal-0",
+      "level": 3,
+      "tags": [
+        "normal"
+      ],
+      "text": "岸上忙成一团，水里总算有条泳道。",
+      "license_status": "MIT; see root LICENSE and LICENSING.md"
+    },
+    {
+      "id": "quip-3-normal-1",
+      "level": 3,
+      "tags": [
+        "normal"
+      ],
+      "text": "今天这班不卷，只把自己游顺了。",
+      "license_status": "MIT; see root LICENSE and LICENSING.md"
+    },
+    {
+      "id": "quip-3-normal-2",
+      "level": 3,
+      "tags": [
+        "normal"
+      ],
+      "text": "按时下水，给下班盖了个水印。",
+      "license_status": "MIT; see root LICENSE and LICENSING.md"
+    },
+    {
+      "id": "quip-3-easy-0",
+      "level": 3,
+      "tags": [
+        "easy"
+      ],
+      "text": "水花不大，自我安排倒挺明白。",
+      "license_status": "MIT; see root LICENSE and LICENSING.md"
+    },
+    {
+      "id": "quip-3-easy-1",
+      "level": 3,
+      "tags": [
+        "easy"
+      ],
+      "text": "这趟主打从容，谁催都得排队。",
+      "license_status": "MIT; see root LICENSE and LICENSING.md"
+    },
+    {
+      "id": "quip-3-fatigued-0",
+      "level": 3,
+      "tags": [
+        "fatigued"
+      ],
+      "text": "累了也能体面收工，泳道不是考勤表。",
+      "license_status": "MIT; see root LICENSE and LICENSING.md"
+    },
+    {
+      "id": "quip-3-fatigued-1",
+      "level": 3,
+      "tags": [
+        "fatigued"
+      ],
+      "text": "今天先把自己游回来，别的明天再说。",
+      "license_status": "MIT; see root LICENSE and LICENSING.md"
+    },
+    {
+      "id": "quip-3-final_sprint-0",
+      "level": 3,
+      "tags": [
+        "final_sprint"
+      ],
+      "text": "嘴上说随便游游，水都没拦住你。",
+      "license_status": "MIT; see root LICENSE and LICENSING.md"
+    },
+    {
+      "id": "quip-3-final_sprint-1",
+      "level": 3,
+      "tags": [
+        "final_sprint"
+      ],
+      "text": "前面说养生，最后还是多踩了脚油门。",
+      "license_status": "MIT; see root LICENSE and LICENSING.md"
+    },
+    {
+      "id": "quip-3-hard-0",
+      "level": 3,
+      "tags": [
+        "hard"
+      ],
+      "text": "看着不慌，划起水倒一点没闲着。",
+      "license_status": "MIT; see root LICENSE and LICENSING.md"
+    },
+    {
+      "id": "quip-4-normal-0",
+      "level": 4,
+      "tags": [
+        "normal"
+      ],
+      "text": "嘴上说随便游，划水倒是认真得很。",
+      "license_status": "MIT; see root LICENSE and LICENSING.md"
+    },
+    {
+      "id": "quip-4-normal-1",
+      "level": 4,
+      "tags": [
+        "normal"
+      ],
+      "text": "岸上打卡够了，水里还要自己加一班。",
+      "license_status": "MIT; see root LICENSE and LICENSING.md"
+    },
+    {
+      "id": "quip-4-normal-2",
+      "level": 4,
+      "tags": [
+        "normal"
+      ],
+      "text": "说是来放松，胳膊已经接单了。",
+      "license_status": "MIT; see root LICENSE and LICENSING.md"
+    },
+    {
+      "id": "quip-4-easy-0",
+      "level": 4,
+      "tags": [
+        "easy"
+      ],
+      "text": "嘴上养生，动作一点没学会敷衍。",
+      "license_status": "MIT; see root LICENSE and LICENSING.md"
+    },
+    {
+      "id": "quip-4-easy-1",
+      "level": 4,
+      "tags": [
+        "easy"
+      ],
+      "text": "放松归放松，这班交得挺认真。",
+      "license_status": "MIT; see root LICENSE and LICENSING.md"
+    },
+    {
+      "id": "quip-4-fatigued-0",
+      "level": 4,
+      "tags": [
+        "fatigued"
+      ],
+      "text": "今天这班做得够了，靠岸就下班。",
+      "license_status": "MIT; see root LICENSE and LICENSING.md"
+    },
+    {
+      "id": "quip-4-fatigued-1",
+      "level": 4,
+      "tags": [
+        "fatigued"
+      ],
+      "text": "认真游完就收工，不给疲劳续杯。",
+      "license_status": "MIT; see root LICENSE and LICENSING.md"
+    },
+    {
+      "id": "quip-4-final_sprint-0",
+      "level": 4,
+      "tags": [
+        "final_sprint"
+      ],
+      "text": "最后这一脚油门，泳池都没拦住。",
+      "license_status": "MIT; see root LICENSE and LICENSING.md"
+    },
+    {
+      "id": "quip-4-final_sprint-1",
+      "level": 4,
+      "tags": [
+        "final_sprint"
+      ],
+      "text": "前面说不卷，收尾倒像赶着下班。",
+      "license_status": "MIT; see root LICENSE and LICENSING.md"
+    },
+    {
+      "id": "quip-4-hard-0",
+      "level": 4,
+      "tags": [
+        "hard"
+      ],
+      "text": "泳道是自己的，认真这班也算自愿。",
+      "license_status": "MIT; see root LICENSE and LICENSING.md"
+    },
+    {
+      "id": "quip-5-normal-0",
+      "level": 5,
+      "tags": [
+        "normal"
+      ],
+      "text": "这趟水花交作业，胳膊负责签名。",
+      "license_status": "MIT; see root LICENSE and LICENSING.md"
+    },
+    {
+      "id": "quip-5-normal-1",
+      "level": 5,
+      "tags": [
+        "normal"
+      ],
+      "text": "本来只想下水，结果给泳池上了个班。",
+      "license_status": "MIT; see root LICENSE and LICENSING.md"
+    },
+    {
+      "id": "quip-5-normal-2",
+      "level": 5,
+      "tags": [
+        "normal"
+      ],
+      "text": "泳道没欠钱，也经不起这套认真。",
+      "license_status": "MIT; see root LICENSE and LICENSING.md"
+    },
+    {
+      "id": "quip-5-easy-0",
+      "level": 5,
+      "tags": [
+        "easy"
+      ],
+      "text": "嘴上说轻松，水花已经不同意了。",
+      "license_status": "MIT; see root LICENSE and LICENSING.md"
+    },
+    {
+      "id": "quip-5-easy-1",
+      "level": 5,
+      "tags": [
+        "easy"
+      ],
+      "text": "说好随便游，泳池差点被游成工地。",
+      "license_status": "MIT; see root LICENSE and LICENSING.md"
+    },
+    {
+      "id": "quip-5-fatigued-0",
+      "level": 5,
+      "tags": [
+        "fatigued"
+      ],
+      "text": "这班够足了，收工就别再续班。",
+      "license_status": "MIT; see root LICENSE and LICENSING.md"
+    },
+    {
+      "id": "quip-5-fatigued-1",
+      "level": 5,
+      "tags": [
+        "fatigued"
+      ],
+      "text": "把水花留在池里，自己好好靠岸。",
+      "license_status": "MIT; see root LICENSE and LICENSING.md"
+    },
+    {
+      "id": "quip-5-final_sprint-0",
+      "level": 5,
+      "tags": [
+        "final_sprint"
+      ],
+      "text": "最后不是摸鱼，是把鱼都赶下班了。",
+      "license_status": "MIT; see root LICENSE and LICENSING.md"
+    },
+    {
+      "id": "quip-5-final_sprint-1",
+      "level": 5,
+      "tags": [
+        "final_sprint"
+      ],
+      "text": "收尾这阵水花，像在替泳池赶工。",
+      "license_status": "MIT; see root LICENSE and LICENSING.md"
+    },
+    {
+      "id": "quip-5-hard-0",
+      "level": 5,
+      "tags": [
+        "hard"
+      ],
+      "text": "今天认真到位，泳池欠个下班章。",
+      "license_status": "MIT; see root LICENSE and LICENSING.md"
+    },
+    {
+      "id": "quip-3-discomfort-0",
+      "level": 3,
+      "tags": [
+        "discomfort"
+      ],
+      "text": "今天先靠岸，这班不硬加了。",
+      "license_status": "MIT; see root LICENSE and LICENSING.md"
+    },
+    {
+      "id": "quip-3-discomfort-1",
+      "level": 3,
+      "tags": [
+        "discomfort"
+      ],
+      "text": "水里也有下班时间，今天到这里。",
+      "license_status": "MIT; see root LICENSE and LICENSING.md"
+    }
+  ],
+  "selection": {
+    "score_randomization": false,
+    "window": 6,
+    "half_star_band": "nearest_integer_half_up",
+    "repeat_same_record": "same selection when rating/state unchanged"
+  }
+}
